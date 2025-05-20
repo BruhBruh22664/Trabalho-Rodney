@@ -1,0 +1,129 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #837b7b;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+header {
+    background:#8f8f8f;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #f7cd74 3px solid;
+    text-align: center;
+}
+
+
+.titulo {
+    margin: 0;
+    padding-bottom: 10px;
+   font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+header p{
+ margin: 05%;
+ font-family: "Afacad", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* Conteúdo principal */
+main {
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start; /* Alinha os itens ao topo */
+}
+
+section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex: 1; 
+    min-width: 300px; 
+    margin: 10px; 
+}
+
+section h2 {
+    color:#ffcb5c ;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+
+}
+
+aside {
+    background:#fff; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex: 1; 
+    min-width: 300px;
+    margin: 10px;
+}
+
+aside h3 {
+    color: #ffbb27; 
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+
+section p, aside p {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #8f8f8f;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.Ingredientes {
+    color: #555; 
+}
+
+.Utensílios {
+    color: #555; 
+}
+
+.linktudogostoso{
+    color: black;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items:end;
+    }
+
+    section, aside {
+        width: 90%;
+        margin: 10px 0;
+    }
+}
